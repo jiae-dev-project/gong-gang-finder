@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="공강파인더"
+            android:textSize="50sp"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp" >
+
+        <Button
+            android:id="@+id/make_team_button"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button1"
+            android:paddingBottom="16dp"
+            android:paddingLeft="30dp"
+            android:text="팀 등록하기"
+            android:textColor="#ffffffff"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/make_timetable_button"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button2"
+            android:layout_marginLeft="30dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="30dp"
+            android:text="시간표 등록하기"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/load_timetable_button"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/button3"
+            android:paddingBottom="16dp"
+            android:paddingLeft="30dp"
+            android:text="시간표 확인하기"
+            android:textColor="#ff000000"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
